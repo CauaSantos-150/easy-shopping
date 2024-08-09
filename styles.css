@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+}
+
+.left{
+    display: inline-block;
+    width: 60%;
+    margin-top: 20%;
+    padding-left: 136px;
+
+}
+
+.right{
+    display: inline-block;
+    background-color: rgba(93, 93, 125, 0.16);
+    height: 100vh;
+    width: 40vw;
+    position: absolute;
+}
+
+img{
+    position: relative;
+    top: 25%;
+    right: 130px;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80px;
+    text-align: left;
+    color: #5d5d7d;
+    width: 368px;
+}
+
+p {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color: #5d5d7d;
+    margin: 15px 0;
+    width: 540px;
+
+}
+
+button{
+    width: 269px;
+    height: 62px;
+    border-radius: 20px;
+    border:none;
+    background: rgba(148, 153, 234, 1);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+a{
+
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 41.5px;
+    text-align: left;
+    color: rgba(93, 93, 125, 1);
+    margin-right: 41px;
+    cursor: pointer;
+}
+
+a:nth-child(2) {
+    opacity: 0.4;
+}
+
+a:hover{
+    opacity: 0.6;
+}
+
+a:active{
+    opacity: 0.3;
+}
+
+header{
+    margin: 24px 0 0 57px;
+}
+
+
+
+@media screen and (max-width:900px) {
+    .left{
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .right{
+        display: block;
+        width: 100%;
+        height: auto;
+        position:static;
+        padding: 40px;
+        
+    }
+
+    img{
+        position:static;
+
+    }
+
+    header {
+        display:none;
+    }
+
+    h1{
+    font-size: 36px;
+    width: auto;
+    line-height: 52px;
+    margin: 58px 50px 0 50px;
+    text-align: center;
+
+    }
+
+    p{  width: auto;
+        top: 177px;
+        margin: 15px 40px;
+        font-size: 14px;
+        text-align: center;
+        line-height: 24px;
+    }
+
+    button{
+        display: block;
+        width: 270px;
+        height: 60px;
+        margin: auto;
+    }
+
+    img{ 
+        max-width:80%;
+        height: 50%;
+        margin: auto;
+        display: block;
+
+    }
+    
+}
