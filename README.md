@@ -8,4 +8,4 @@ Desktop:
 <img src="https://github.com/CauaSantos-150/easy-shopping/blob/main/assets/desktop.png?raw=true">
 
 Mobile:
-<img src="https://github.com/CauaSantos-150/easy-shopping/blob/main/assets/desktop.png?raw=true">
+<img src="https://github.com/CauaSantos-150/easy-shopping/blob/main/assets/mobile.png?raw=true">
